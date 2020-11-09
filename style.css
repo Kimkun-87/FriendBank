@@ -1,0 +1,45 @@
+.container, .member{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 1200px;
+    height: 300px;
+    padding-top: 100px;
+    background-color: rgb(194, 247, 235);
+}
+
+.container h2{
+    padding-bottom: 20px;
+}
+
+.member{
+    background-color: rgb(248, 248, 248);
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.list1 p,.list2 p,.list3 p,.list4 p,.list5 p,.list6 p{
+    font-size: 14px;
+}
+
+
+.list1,.list2,.list3,.list4,.list5,.list6{
+    display: none;
+    width: 100%;
+}
+
+.content1,.content2,.content3,.content4,.content5,.content6:hover{
+    cursor: pointer;
+}
+.content1,.content2,.content3,.content4,.content5,.content6{
+    width: 100%;
+}
+
+li{
+    padding: 20px;
+}
